@@ -36,6 +36,7 @@ class MonstersApp extends Component {
     })
     return (
       <div className="MonstersApp">
+      <h1>Monsters Gallery</h1>
       <SearchBox
             placeholder='E.g. Glen'
             changeHandler={this.changeHandler}></SearchBox>
