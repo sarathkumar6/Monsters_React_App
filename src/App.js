@@ -22,6 +22,9 @@ class MonstersApp extends Component {
       });
   }
   
+  /**
+   * @function changeHandler sets the searchValue state with the search string
+   */
   changeHandler = (e) => {
     this.setState({searchValue: e.target.value});
   }
